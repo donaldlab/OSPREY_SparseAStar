@@ -1,3 +1,22 @@
+Code:
+This repository contains code used in the following publication: Jain S, Jou JD, Georgiev IS, and 
+Donald BR. A Critical Analysis of Computational Protein Design with Sparse Residue Interaction Graphs. 
+PLoS Comp Biol. 2017, In press. We recommend that this be used to test the hypothesis 
+and results of sparse residue interaction graphs as presented in this manuscript. In addition, our lab 
+has also developed a novel and more efficient dynamic programming algorithm called Branch-Width 
+Minimization* (BWM*) available at https://github.com/donaldlab/BWM for protein design with sparse residue 
+interaction graphs. For new empirical designs, we recommend using the latest version of OSPREY 2.1 
+available at http://www.cs.duke.edu/donaldlab/osprey.php that includes continuous sidechain and backbone 
+flexibility, ensemble-based design, and new and faster methods to calculate energy functions. 
+
+Data:
+All the results on the 136 protein design problems and 6 retrospective protein design problems discussed 
+in this manuscript are available from the Harvard Dataverse repository 
+(https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C6IWA , doi:10.7910/DVN/6C6IWA).
+
+
+Technical instructions specific to running Sparse A* follow.
+
 The runs here are initial experiments to determine for what setups using doBranchDGMEC is most powerful. These runs should not be used for exact run time comparison; rather, these runs should be used to get a general idea of the computational bottlenecks and power of doBranchDGMEC and the related functions.
 
 All runs were performed on hexa.cs.duke.edu, which has 8 Dual Core AMD Opteron(tm) Processor 885 at 2613.712MHz, a total of 64GB RAM.
