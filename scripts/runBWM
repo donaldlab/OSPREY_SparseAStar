@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+#$ -S /usr/bin/perl
+#$ -cwd
+use Cwd;
+print "Hello world!\n";
+$ENV{CLASSPATH} = "$ENV{CLASSPATH}:/usr/project/dlab/Users/jj/SparseAStar/NewExperiments/SparseGraphAnalysisCode/bin:/usr/project/dlab/Users/jj/SparseAStar/NewExperiments/SparseGraphAnalysisCode/src/BranchDecomposition/jmatharray.jar";
+$currentDirectory = getcwd();
+print "We're in $currentDirectory\n";
+system("java -Xmx60000M kstar/KStar -t 10 -c ../../defaultConfig/KStar.cfg doDEE config/System.cfg config/DEE.cfg");
