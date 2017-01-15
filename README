@@ -119,6 +119,11 @@ return the GMEC faster than traditional A*, even when traditional A* times out o
 memory. If using Sparse A*, use the following citation:
 Jain S, Jou JD, Georgiev IS, and Donald BR. A Critical Analysis of Computational Protein Design 
 with Sparse Residue Interaction Graphs. PLoS Comp Biol. 2017, In press.
+• To perform protein designs with sparse residue interaction graphs, BWM* is able to exploit the 
+sparseness of the graph to efficiently enumerate conformations, signifcantly faster than 
+traditional iMinDEE/A*. If using BWM*, use the following citation:
+Jou JD, Jain S, Georgiev I, Donald BR. BWM*: A novel, provable ensemble- based dynamic programming 
+algorithm for sparse approximations of computational protein design. J Comput Biol. 2016.
 
 
 
