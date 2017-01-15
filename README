@@ -114,7 +114,11 @@ the Gramicidin Synthetase A phenylalanine adenylation enzyme. J Comp Biol, 12(6â
 M. A. Hallen, D. A. Keedy, and B. R. Donald. Dead-End elimination with perturbations (DEEPer):
 A provable protein design algorithm with continuous sidechain and backbone flexibility. Proteins,
 in press, 2012.
-
+â€¢ To perform protein designs with sparse residue interaction graphs, Sparse A* can in some cases
+return the GMEC faster than traditional A*, even when traditional A* times out or runs out of 
+memory. If using Sparse A*, use the following citation:
+Jain S, Jou JD, Georgiev IS, and Donald BR. A Critical Analysis of Computational Protein Design 
+with Sparse Residue Interaction Graphs. PLoS Comp Biol. 2017, In press.
 
 
 
